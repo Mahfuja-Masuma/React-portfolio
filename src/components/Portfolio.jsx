@@ -3,33 +3,40 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import installnode from "../assets/portfolio/install node.jpg";
 import parallax from "../assets/portfolio/parallax.jpg";
 import smothscroll from "../assets/portfolio/smoth scroll.jpg";
-import wetherapp from "../assets/portfolio/weatherapp.jpg";
+import tourTravle from "../assets/portfolio/tour-travle.png";
+import { Link } from "react-scroll";
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: arraydis,
+      name: arraydis,
+      // src:
     },
     {
       id: 2,
-      src: navbar,
+      name: navbar,
+      // src:
     },
     {
       id: 3,
-      src: installnode,
+      name: installnode,
+      // src:
     },
     {
       id: 4,
-      src: parallax,
+      name: parallax,
+      // src:
     },
     {
       id: 5,
-      src: smothscroll,
+      name: smothscroll,
+      // src:
     },
     {
       id: 6,
-      src: wetherapp,
+      name: tourTravle,
+      src:"https://tour-and-travel-liart.vercel.app/"
     },
   ];
   return (  
@@ -48,17 +55,17 @@ const Portfolio = () => {
        
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
-         {portfolio.map(({ id, src }) => (
+         {portfolio.map(({ id, src,name }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src={src}
+                src={name}
                 alt="portfolio"
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
+                <a href={src}  className="w-1/2 cursor-pointer px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Demo 
+                </a>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>

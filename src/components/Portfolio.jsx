@@ -1,7 +1,7 @@
 import arraydis from "../assets/portfolio/array.png";
 import navbar from "../assets/portfolio/navbar.jpg";
-import installnode from "../assets/portfolio/install node.jpg";
-import parallax from "../assets/portfolio/parallax.jpg";
+import chattingapp from "../assets/portfolio/chattingapp.jpg";
+import resposiveproject from "../assets/portfolio/responsiveproject.jpg";
 import smothscroll from "../assets/portfolio/smoth scroll.jpg";
 import tourTravle from "../assets/portfolio/tour-travle.png";
 import { Link } from "react-scroll";
@@ -20,13 +20,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      name: installnode,
-      // src:
+      name: chattingapp,
+      src:"https://chatting-application-d4np.vercel.app/home"
     },
     {
       id: 4,
-      name: parallax,
-      // src:
+      name: resposiveproject,
+      src:"https://test-chi-rose-44.vercel.app/"
     },
     {
       id: 5,

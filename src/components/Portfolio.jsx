@@ -1,4 +1,4 @@
-import arraydis from "../assets/portfolio/array.png";
+import toDoTasker from "../assets/portfolio/todo.png";
 import navbar from "../assets/portfolio/navbar.jpg";
 import chattingapp from "../assets/portfolio/chattingapp.jpg";
 import resposiveproject from "../assets/portfolio/responsiveproject.jpg";
@@ -10,8 +10,8 @@ const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      name: arraydis,
-      // src:
+      name: toDoTasker,
+      src:"https://todo-tasker-client.vercel.app"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const Portfolio = () => {
     {
       id: 3,
       name: chattingapp,
-      src:"https://chatting-application-d4np.vercel.app/home"
+      src:"https://chatting-application-d4np.vercel.app"
     },
     {
       id: 4,

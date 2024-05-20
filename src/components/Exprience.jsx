@@ -6,8 +6,11 @@ import react from '../assets/portfolio/react.png'
 import tailwind from '../assets/portfolio/tailwind.png'
 import github from '../assets/portfolio/github.png'
 import sass from '../assets/portfolio/sass.png'
-import graphic from '../assets/portfolio/graph.png'
+import ExpressJs from '../assets/portfolio/express-js.png'
 import firebase from '../assets/portfolio/firebase.png'
+import mongoDb from '../assets/portfolio/mongoDb.png'
+import nextJs from '../assets/portfolio/nextJs.png'
+import bootstrap from '../assets/portfolio/bootstrap.png'
 
 const Exprience = () => {
   const exprience = [
@@ -55,15 +58,33 @@ const Exprience = () => {
     },
     {
       id:8,
-      src: graphic,
-      title:'Graphic',
-      style: 'shadow-pink-800'
+      src: ExpressJs,
+      title:'Express Js',
+      style: 'shadow-orange-800'
     },
     {
       id:9,
       src: firebase,
       title:'Firebase',
       style: 'shadow-orange-600'
+    },
+    {
+      id:10,
+      src: mongoDb,
+      title:'Mongo Db',
+      style: 'shadow-green-600'
+    },
+    {
+      id:11,
+      src: nextJs,
+      title:'Next JS',
+      style: 'shadow-white'
+    },
+    {
+      id:12,
+      src: bootstrap,
+      title:'Bootstrap',
+      style: 'shadow-blue-600'
     },
   ]
   return (
